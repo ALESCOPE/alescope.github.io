@@ -1,6 +1,6 @@
 ---
 title: "Welcome to ALESCOPE!"
-date: 2022-10-19T13:52:30-04:00
+date: 2022-10-19
 categories:
   - blog
 tags:
