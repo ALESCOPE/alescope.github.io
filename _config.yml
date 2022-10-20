@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "The ALESCOPE Committee"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : #"/assets/images/bio-photo.jpg"
   bio    : "Academy of Large and Extreme Scale Computing, Optimisation and Performance Engineering "
   links:
     - label: "Website"
@@ -87,18 +87,22 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      #author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "alescope"
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true
+      #author_profile: false
+      sidebar:
+        nav: "alescope"
 
 category_archive:
   type: liquid
