@@ -57,7 +57,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "The ALESCOPE Committee"
+  name   : "ALESCOPE"
   avatar : #"/assets/images/bio-photo.jpg"
   bio    : "Academy of Large and Extreme Scale Computing, Optimisation and Performance Engineering "
   links:
