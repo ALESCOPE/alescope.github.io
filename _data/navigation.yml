@@ -1,8 +1,22 @@
 alescope:
   - title: "About"
-    url: /about/
+    children:
+        - title: "About ALESCOPE"
+          url: /about/
+        - title: "The ALESCOPE Committee"
+          url: /committee/
+        - title: "Supporters"
+          url: /supporters/
+        - title: "Contact"
+          url: /contact/  
+  - title: "Training and Events"
+    children:
+      - title: "Performance Analysis"
+        url: /performance/            
   - title: "Posts"
-    url: /posts/
+    children:
+      - title: "Posts"
+        url: /posts/
   #- title: "Categories"
   #  url: /categories/
   #- title: "Tags"

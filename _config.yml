@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Academy of Large and Extreme Scale Computing, Optimisation and Performance Engineering
 twitter_username: hpcsoftware_
 github_username: marionbweinzierl
-minimal_mistakes_skin: air
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -103,10 +103,19 @@ footer:
       url: "https://github.com/ALESCOPE"
 
 defaults:
-  # _alescope
+defaults:
+  # _posts
   - scope:
       path: ""
-      type: alescope
+      type: posts
+    values:
+      layout: single
+      sidebar:
+        nav: "alescope"
+  # _pages
+  - scope:
+      path: ""
+      type: pages
     values:
       sidebar:
         nav: "alescope"
