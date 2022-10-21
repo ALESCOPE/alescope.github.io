@@ -103,26 +103,11 @@ footer:
       url: "https://github.com/ALESCOPE"
 
 defaults:
-  # _posts
+  # _alescope
   - scope:
       path: ""
       type: alescope
     values:
-      layout: single
-      author_profile: #false
-      read_time: true
-      comments: #true
-      share: #true
-      related: #true
-      sidebar:
-        nav: "Posts"
-  # _pages
-  - scope:
-      path: ""
-      type: alescope
-    values:
-      layout: single
-      author_profile: #false
       sidebar:
         nav: "alescope"
 
